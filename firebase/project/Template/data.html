@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <table class="table table-hover mt-4 w-100 border">
+      <thead class="thead text-center">
+        <tr>
+          <th scope="col">Active Power</th>
+          <th scope="col">Apparent Power</th>
+          <th scope="col">Current</th>
+          <th scope="col">Energy</th>
+          <th scope="col">Frequency</th>
+          <th scope="col">Power Factor</th>
+          <th scope="col">Reactive Factor</th>
+          <th scope="col">Voltage</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="text-center">
+            <td>{{electrical_Dict.active_power}}</td>
+            <td>{{electrical_Dict.apparent_power}}</td>
+            <td>{{electrical_Dict.current}}</td>
+            <td>{{electrical_Dict.energy}}</td>
+            <td>{{electrical_Dict.frequency}}</td>
+            <td>{{electrical_Dict.power_factor}}</td>
+            <td>{{electrical_Dict.reactive_factor}}</td>
+            <td>{{electrical_Dict.voltage}}</td>
+        </tr>
+    </tbody>
+  </table>
+</body>
+</html>
+         
